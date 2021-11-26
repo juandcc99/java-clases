@@ -39,7 +39,10 @@ public class Cliente{
     public void setPresupuesto (double presupuesto){
         this.presupuesto=presupuesto;
     }
-    
+	
+     /*
+     * METODOS
+     */
     public void fichaCliente(){
         System.out.println("El cliente " +nombre+ "-" +ciudad+ " tiene un presupuesto de " +presupuesto);
     }
